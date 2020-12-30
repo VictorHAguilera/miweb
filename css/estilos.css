@@ -178,7 +178,7 @@ h4 {
 }
 
 /* aqui con los media queries voy diagramando la pagina en diferentes dimensiones de pantalla */
-@media all and (max-width: 800px) {
+@media all and (max-width: 1142px) {
   .seccion {
     flex-direction: column;
   }
@@ -190,16 +190,34 @@ h4 {
     display: flex;
     justify-content: center;
   }
-}
-
-@media all and (max-width: 600px) {
-  .articulos {
-    flex-direction: column;
+  h1 {
+    font-size: 15px;
   }
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 860px) {
+  .articulos {
+    flex-direction: column;
+  }
+  .off {
+    display: none;
+  }
+  .nav a {
+    font-size: 35px;
+  }
+  .social a {
+    font-size: 35px;
+  }
+}
+
+@media all and (max-width: 480px) {
   .aside {
     flex-direction: column;
+  }
+  .nav a {
+    font-size: 18px;
+  }
+  .social a {
+    font-size: 18px;
   }
 }
