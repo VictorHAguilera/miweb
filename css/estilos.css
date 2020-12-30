@@ -5,6 +5,7 @@
 }
 body {
   font-family: "Montserrat", sans-serif;
+  font-family: "Lora", serif;
 }
 a {
   text-decoration: none;
@@ -14,7 +15,7 @@ a {
   flex-flow: column nowrap;
 }
 .header {
-  background: url(../imagenes/vikita_peluso.jpg);
+  background: url(../imagenes/chocoAudi3.jpg);
   background-position: center;
   background-attachment: contain;
   background-size: cover;
@@ -25,8 +26,9 @@ a {
   background: rgba(0, 0, 0, 0.1);
   display: flex;
   flex-flow: row nowrap;
-  height: 100px;
+  height: 60px;
   align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 .logotipo {
   flex: 1 1 auto;
@@ -66,10 +68,18 @@ a {
   color: #686060;
 }
 .texto-principal {
-  background: #6a2c70;
+  /* background: #6a2c70;*/
+  height: 580px;
+  display: flex;
+  align-items: center;
 }
 h1 {
-  background: #b83b5e;
+  font-family: "Lora", serif;
+  font-size: 21px;
+  color: #fff;
+  font-weight: 300;
+  text-align: center;
+  line-height: 1.6;
 }
 .seccion {
   background: #000;
