@@ -11,7 +11,10 @@ body {
   flex-flow: column nowrap;
 }
 .header {
-  background: #000;
+  background: url(../imagenes/vikita_peluso.jpg);
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
   display: flex;
   flex-flow: column nowrap;
 }
@@ -25,17 +28,14 @@ body {
 .logotipo {
   background: #f08a5d;
   flex: 1 1 auto;
-  height: 30px;
 }
 .nav {
   background: #f08a5d;
   flex: 5 1 auto;
-  height: 30px;
 }
 .social {
   background: #f08a5d;
   flex: 1 1 auto;
-  height: 30px;
 }
 .texto-principal {
   background: #6a2c70;
