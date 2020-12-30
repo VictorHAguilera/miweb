@@ -1,10 +1,13 @@
 * {
-  margin: 10px;
+  margin: 0px;
   padding: 10px;
   box-sizing: border-box;
 }
 body {
   font-family: "Montserrat", sans-serif;
+}
+a {
+  text-decoration: none;
 }
 .contenedor {
   display: flex;
@@ -19,23 +22,48 @@ body {
   flex-flow: column nowrap;
 }
 .menu {
-  background: #f9ed69;
+  background: rgba(0, 0, 0, 0.1);
   display: flex;
   flex-flow: row nowrap;
   height: 100px;
   align-items: center;
 }
 .logotipo {
-  background: #f08a5d;
   flex: 1 1 auto;
+}
+.logotipo a {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.logotipo a:hover {
+  color: #686060;
 }
 .nav {
-  background: #f08a5d;
   flex: 5 1 auto;
 }
+.nav a {
+  color: #ffffff;
+  font: size 11px;
+  text-transform: uppercase;
+  padding: 0 19px;
+  letter-spacing: 2px;
+}
+.nav a:hover {
+  color: #686060;
+}
+
 .social {
-  background: #f08a5d;
   flex: 1 1 auto;
+  display: flex;
+}
+.social a {
+  font: size 18px;
+  color: #ffffff;
+  padding: 0 5px;
+}
+.social a:hover {
+  color: #686060;
 }
 .texto-principal {
   background: #6a2c70;
