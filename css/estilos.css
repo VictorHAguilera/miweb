@@ -3,20 +3,26 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Montserrat", sans-serif;
   font-family: "Lora", serif;
+  background-color: #444444;
 }
+
 a {
   text-decoration: none;
 }
+
 .contenedor {
   display: flex;
   flex-flow: column nowrap;
 }
+
 .margen-interno {
   padding: 0 30px;
 }
+
 .header {
   background: url(../imagenes/chocoAudi3.jpg);
   background-position: center;
@@ -25,6 +31,7 @@ a {
   display: flex;
   flex-flow: column nowrap;
 }
+
 .menu {
   background: rgba(0, 0, 0, 0.1);
   font-size: 18px;
@@ -34,9 +41,11 @@ a {
   align-items: center;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
+
 .logotipo {
   flex: 1 1 auto;
 }
+
 .logotipo a {
   color: #ffffff;
   font-size: 30px;
@@ -45,9 +54,11 @@ a {
 .logotipo a:hover {
   color: #686060;
 }
+
 .nav {
   flex: 5 1 auto;
 }
+
 .nav a {
   color: #ffffff;
   font: size 11px;
@@ -55,6 +66,7 @@ a {
   padding: 0 19px;
   letter-spacing: 2px;
 }
+
 .nav a:hover {
   color: #686060;
 }
@@ -63,21 +75,24 @@ a {
   flex: 1 1 auto;
   display: flex;
 }
+
 .social a {
   font-size: 22px;
   letter-spacing: 10px;
   color: #ffffff;
   padding: 0 5px;
 }
+
 .social a:hover {
   color: #686060;
 }
+
 .texto-principal {
-  /* background: #6a2c70;*/
   height: 580px;
   display: flex;
   align-items: center;
 }
+
 h1 {
   font-family: "Lora", serif;
   font-size: 21px;
@@ -86,28 +101,40 @@ h1 {
   text-align: center;
   line-height: 1.6;
 }
+
 .seccion {
-  background: #f7f7f7;
+  /*background: #f7f7f7;*/
   display: flex;
 }
+
 .articulos {
-  background: #f7f7f7;
+  /*background: #f7f7f7;*/
   flex: 2 1 auto;
   display: flex;
   flex-flow: row wrap;
 }
+
 h3 {
-  color: #ffd000;
+  color: #b93f07;
   font-size: 13px;
   padding: 10px 0;
   margin-top: -80px;
+  margin-left: 15px;
+  /*margin: 5px 15px;*/
 }
+
 h2 {
-  color: #ffd000;
+  color: #b93f07;
   font-size: 25px;
   padding: 0px 0 10px 0;
+  margin: 5px 15px;
   text-transform: uppercase;
 }
+
+p {
+  margin: 5px 15px;
+}
+
 .article {
   flex: 1 1 40%;
   color: #444;
@@ -117,26 +144,32 @@ h2 {
   flex: 1 1 45%;
   background: #ececec;
 }
+
 .article img {
   width: 100%;
 }
+
 .article a {
   color: #ffffff;
   font-size: 13px;
   padding: 10px;
   background: #000000;
-  margin: 10px 0;
+  margin: 10px 15px;
   display: inline-block;
   border-radius: 5px;
 }
+
 .article a:hover {
   background: #546cc3;
 }
+
 .navegacion {
-  background: #000000;
+  background: #7c2929;
   flex: 1 1 100%;
   margin: 10px 10px 0 0px;
+  padding: 5px;
 }
+
 .navegacion a {
   color: #fff;
   font-size: 11px;
@@ -144,23 +177,24 @@ h2 {
   padding: 0 10px;
   letter-spacing: 2px;
 }
+
 .aside {
   /*background: #f73f52;*/
   flex: 1 1 auto;
   margin: 10px 5px 10px 0;
 }
+
 .aside img {
   width: 100%;
 }
+
 h4 {
   background: #000;
   color: #fff;
   padding: 10px;
   text-transform: uppercase;
 }
-.publicidad {
-  /*background: #6639a6;*/
-}
+
 .footer {
   background: #000;
   display: flex;
@@ -168,9 +202,11 @@ h4 {
   margin-top: 10px;
   padding: 20px 10px;
 }
+
 .pie {
   text-align: center;
 }
+
 .pie a {
   color: #fff;
   font-size: 11px;
@@ -198,6 +234,7 @@ h4 {
     display: flex;
     justify-content: center;
   }
+
   h1 {
     font-size: 15px;
   }
@@ -209,12 +246,21 @@ h4 {
     font-size: 18px;
     padding: 0 12px;
   }
+  h2 {
+    font-size: 20px;
+  }
+  .margen-interno {
+    padding: 0 10px;
+  }
+  .aside h4 {
+    font-size: 12px;
+  }
+  .pie {
+    padding: 10px;
+  }
 }
 
 @media all and (max-width: 860px) {
-  .articulos {
-    flex-direction: column;
-  }
   .off {
     display: none;
   }
@@ -235,9 +281,18 @@ h4 {
   .margen-interno {
     padding: 0 10px;
   }
+  .pie {
+    padding: 10px 0;
+  }
+  h2 {
+    font-size: 18px;
+  }
 }
 
-@media all and (max-width: 567px) {
+@media all and (max-width: 650px) {
+  .articulos {
+    flex-direction: column;
+  }
   .aside {
     flex-direction: column;
   }
@@ -257,6 +312,12 @@ h4 {
   .margen-interno {
     padding: 0 10px;
   }
+  .pie {
+    padding: 10px 0;
+  }
+  .pie a {
+    font-size: 11px;
+  }
 }
 
 @media all and (max-width: 379px) {
@@ -275,5 +336,11 @@ h4 {
   }
   .margen-interno {
     padding: 0 10px;
+  }
+  .pie {
+    padding: 10px 0;
+  }
+  .pie a {
+    font-size: 10px;
   }
 }
