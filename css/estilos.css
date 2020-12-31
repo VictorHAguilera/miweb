@@ -15,7 +15,7 @@ a {
   flex-flow: column nowrap;
 }
 .margen-interno {
-  padding: 0 50px;
+  padding: 0 30px;
 }
 .header {
   background: url(../imagenes/chocoAudi3.jpg);
@@ -27,6 +27,7 @@ a {
 }
 .menu {
   background: rgba(0, 0, 0, 0.1);
+  font-size: 18px;
   display: flex;
   flex-flow: row nowrap;
   height: 60px;
@@ -63,7 +64,8 @@ a {
   display: flex;
 }
 .social a {
-  font: size 18px;
+  font-size: 22px;
+  letter-spacing: 10px;
   color: #ffffff;
   padding: 0 5px;
 }
@@ -164,9 +166,9 @@ h4 {
   display: flex;
   justify-content: center;
   margin-top: 10px;
+  padding: 20px 10px;
 }
 .pie {
-  /*background: #ffd460;*/
   text-align: center;
 }
 .pie a {
@@ -178,13 +180,19 @@ h4 {
 }
 
 /* aqui con los media queries voy diagramando la pagina en diferentes dimensiones de pantalla */
-@media all and (max-width: 1142px) {
+@media all and (max-width: 1192px) {
   .seccion {
     flex-direction: column;
   }
   .menu {
     flex-direction: column;
-    height: auto;
+    /*height: auto;*/
+  }
+  .logotipo {
+    margin: 15px;
+  }
+  .nav {
+    margin-bottom: 20px;
   }
   .aside {
     display: flex;
@@ -192,6 +200,14 @@ h4 {
   }
   h1 {
     font-size: 15px;
+  }
+  .nav a {
+    font-size: 18px;
+    padding: 0 12px;
+  }
+  .social a {
+    font-size: 18px;
+    padding: 0 12px;
   }
 }
 
@@ -202,22 +218,62 @@ h4 {
   .off {
     display: none;
   }
+  .logotipo {
+    margin: 15px;
+  }
+  .nav {
+    margin-bottom: 20px;
+  }
   .nav a {
-    font-size: 35px;
+    font-size: 30px;
+    letter-spacing: 18px;
   }
   .social a {
-    font-size: 35px;
+    font-size: 30px;
+    letter-spacing: 18px;
+  }
+  .margen-interno {
+    padding: 0 10px;
   }
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 567px) {
+  .aside {
+    flex-direction: column;
+  }
+  .logotipo a {
+    font-size: 28px;
+  }
+  .nav a {
+    font-size: 28px;
+    padding: 0 5px;
+    letter-spacing: 15px;
+  }
+  .social a {
+    font-size: 28px;
+    padding: 0 5px;
+    letter-spacing: 15px;
+  }
+  .margen-interno {
+    padding: 0 10px;
+  }
+}
+
+@media all and (max-width: 379px) {
   .aside {
     flex-direction: column;
   }
   .nav a {
-    font-size: 18px;
+    font-size: 26px;
+    padding: 0 5px;
+    letter-spacing: 15px;
   }
   .social a {
-    font-size: 18px;
+    font-size: 26px;
+    padding: 0 5px;
+    letter-spacing: 12px;
+  }
+  .margen-interno {
+    padding: 0 10px;
   }
 }

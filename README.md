@@ -29,3 +29,4 @@ Second version responsive page with content and images
   - Adobe Protoshop 2020
   - Adobe Illustrator 2020
   - 3Ds Max 2019
+  - Visual Studio Code
