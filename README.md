@@ -19,10 +19,13 @@ Second version responsive page with content and images
 ### Screens
 
 <div display="block">
-           <h5></h5>
+           <h5>Desktop</h5>
            <img height="500px" width="750px" src=https://github.com/VictorHAguilera/responsive-page-v2/blob/main/imagenes/desktop_screen.jpeg/>
-           <img height="500px" width="750px" src=https://github.com/VictorHAguilera/responsive-page-v2/blob/main/imagenes/ipad_screen.jpeg/>
+           <h5>ipad</h5>
+           <img height="600px" width="750px" src=https://github.com/VictorHAguilera/responsive-page-v2/blob/main/imagenes/ipad_screen.jpeg/>
+           <h5>iphoneX</h5>
            <img height="750px" width="550px" src=https://github.com/VictorHAguilera/responsive-page-v2/blob/main/imagenes/iphoneX_screen.jpg/> 
+           iphone X full page
            <img height="3000px" width="300px" src=https://github.com/VictorHAguilera/responsive-page-v2/blob/main/imagenes/iphoneX_screen_complete.jpeg/>
 </div>
 
