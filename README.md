@@ -29,6 +29,10 @@ Second version responsive page with content and images
            <img height="3000px" width="300px" src=https://github.com/VictorHAguilera/responsive-page-v2/blob/main/imagenes/iphoneX_screen_complete.jpeg/>
 </div>
 
+### Video
+
+<video src=https://github.com/VictorHAguilera/responsive-page-v2/blob/main/imagenes/video_web_responsiva2.mp4"></video>
+
 ### Technologies I used
 
 - Front End:
