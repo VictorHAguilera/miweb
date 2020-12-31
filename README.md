@@ -16,6 +16,16 @@ Second version responsive page with content and images
            <img height="300px" width="500px" src=https://github.com/VictorHAguilera/responsive-page-v2/blob/main/imagenes/publicidad1.jpg/>
 </div>
 
+### Screens
+
+<div display="flex">
+           <h5></h5>
+           <img height="300px" width="500px" src=https://github.com/VictorHAguilera/responsive-page-v2/blob/main/imagenes/desktop_screen.jpg/>
+           <img height="300px" width="500px" src=https://github.com/VictorHAguilera/responsive-page-v2/blob/main/imagenes/ipad_screen.jpg/>
+           <img height="300px" width="500px" src=https://github.com/VictorHAguilera/responsive-page-v2/blob/main/imagenes/iphoneX_screen.jpg/> 
+           <img height="300px" width="500px" src=https://github.com/VictorHAguilera/responsive-page-v2/blob/main/imagenes/iphoneX_screen_complete.jpg/>
+</div>
+
 ### Technologies I used
 
 - Front End:
