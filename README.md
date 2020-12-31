@@ -20,10 +20,10 @@ Second version responsive page with content and images
 
 <div display="flex">
            <h5></h5>
-           <img height="300px" width="500px" src=https://github.com/VictorHAguilera/responsive-page-v2/blob/main/imagenes/desktop_screen.jpeg/>
-           <img height="300px" width="500px" src=https://github.com/VictorHAguilera/responsive-page-v2/blob/main/imagenes/ipad_screen.jpeg/>
+           <img height="400px" width="650px" src=https://github.com/VictorHAguilera/responsive-page-v2/blob/main/imagenes/desktop_screen.jpeg/>
+           <img height="400px" width="620px" src=https://github.com/VictorHAguilera/responsive-page-v2/blob/main/imagenes/ipad_screen.jpeg/>
            <img height="750px" width="500px" src=https://github.com/VictorHAguilera/responsive-page-v2/blob/main/imagenes/iphoneX_screen.jpg/> 
-           <img height="3000px" width="500px" src=https://github.com/VictorHAguilera/responsive-page-v2/blob/main/imagenes/iphoneX_screen_complete.jpeg/>
+           <img height="3000px" width="300px" src=https://github.com/VictorHAguilera/responsive-page-v2/blob/main/imagenes/iphoneX_screen_complete.jpeg/>
 </div>
 
 ### Technologies I used
